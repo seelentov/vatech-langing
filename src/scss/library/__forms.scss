@@ -1,0 +1,43 @@
+.main-form {
+  padding: 0 20px 20px 20px;
+  background: #233539;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+  @media (max-width: 1023px) {
+    width: 100%;
+  }
+  // .main-form__input
+  
+  &__input {
+    padding: 20px 0;
+    input, select {
+      width: 100%;
+      border-bottom: 1px solid var(--color-gray);
+      padding: 10px;
+      transition: all .2s;
+      &:focus{
+      border-bottom: 1px solid var(--color-white);
+
+      }
+    }
+  }
+  
+  // .main-form__submit
+  
+  &__submit {
+    font-weight: 600;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 10px;
+    text-transform: uppercase;
+    background: var(--color-gray);
+    transition: all .2s;
+    &:hover{
+    background: black;
+      
+    }
+  }
+  }
+  

@@ -1,0 +1,76 @@
+.video-carousel {
+  padding: 50px 0;
+  // .video-carousel__container
+  h2{
+    margin-bottom: 40px;
+  }
+  // .video-carousel__container
+  
+  &__container {}
+  
+  // .video-carousel__carousel
+  
+  &__carousel {
+    -webkit-box-shadow: 10px 6px 21px 0px rgba(0, 0, 0, 0.5);
+-moz-box-shadow: 10px 6px 21px 0px rgba(0, 0, 0, 0.5);
+box-shadow: 10px 6px 21px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  // .video-carousel__count
+  
+  &__count {
+    margin: 10px 0;
+    text-align: right;
+    color: var(--color-gray)
+  }
+  
+  // .video-carousel__controls
+  
+  &__controls {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+  }
+  
+  // .video-carousel__controls-prev
+  
+  &__controls-prev {
+    cursor: pointer;
+  }
+  
+  // .video-carousel__controls-next
+  
+  &__controls-next {
+    cursor: pointer;
+  }
+  }
+  .container {
+  }
+  .header {
+  }
+  .js-video-carousel {
+  
+  // .js-video-carousel__carousel
+  
+  &__carousel {}
+  
+  // .js-video-carousel__controls-prev
+  
+  &__controls-prev {}
+  
+  // .js-video-carousel__controls-next
+  
+  &__controls-next {}
+  }
+  .swiper {
+  }
+  .swiper-wrapper {
+  }
+  .video-carousel-item {
+  }
+  .swiper-slide {
+  }
+  .iframe {
+  }
+  
+

@@ -1,0 +1,13 @@
+.iframe {
+  overflow: hidden;
+
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+
+  iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+  }
+}
